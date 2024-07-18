@@ -1,0 +1,82 @@
+.home-btn {
+    position: absolute;
+    color: white;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+}
+
+.home-btn:hover {
+    color: rgb(214, 214, 214);
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-group label {
+    flex: 0 0 30%;
+    margin-right: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group input[disabled] {
+    background: #e9e9e9;
+    color: #777;
+}
+/* i {
+    margin-right: 10px; 
+    color: #666; 
+    right: -10px;
+  }
+i.fa { 
+    margin-right: 10px; 
+    color: #666; 
+  } */
+.form-group .captcha-refresh {
+    width: 40px;
+    height: 37px;
+    border: none;
+    outline: none;
+    background: eee;
+    color: #eee;
+    background-color: #d2c4c49c;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+.form-group .captcha-refresh:hover {
+    background-color: #ccc;
+}
+.form-group i .fa-user .fa-key {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.icon{
+    position: relative;
+    padding: 10px;
+    left: 0px;
+    text-align: center;
+}
+.create-captcha {
+    left: -30px;
+}

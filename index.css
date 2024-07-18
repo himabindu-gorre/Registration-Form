@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url("images//background.jpg");
+  background-size: cover;
+  font-family: "Work Sans", sans-serif;
+  z-index: 1;
+  background-attachment: fixed;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 700px;
+  height: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.container h1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.captcha i {
+  cursor: pointer;
+  right: 400px;
+  top: -2px;
+}
+
+span {
+  left: 80px;
+  right: -120px;
+}
+
+.captcha-container {
+  display: flex;
+  align-items: center;
+}
+
+.login-btn {
+  width: 120px;
+  height: 45px;
+  border-radius: 50px;
+  border: none;
+  background-color: #054094;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: hwb(211 0% 30%);
+  transition: ease-out 0.3s;
+}
+
+p a {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  cursor: pointer;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.links i {
+  margin-right: 5px;
+}
+
+.box {
+  width: 200px;
+  height: 120px;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+p {
+  cursor: pointer;
+  font-weight: bold;
+}
